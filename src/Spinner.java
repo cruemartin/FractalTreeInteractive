@@ -2,9 +2,6 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import java.awt.*;
-
-
 public class Spinner extends JSpinner implements ChangeListener{
 	
 	TreePanel treePanel;
@@ -22,8 +19,6 @@ public class Spinner extends JSpinner implements ChangeListener{
 		
 		this.setModel(model);
 		this.addChangeListener(this);
-		
-		
 	}
 
 	@Override

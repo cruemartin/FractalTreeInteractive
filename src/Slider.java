@@ -1,8 +1,6 @@
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
-
-import java.awt.*;
 import java.util.Hashtable;
 
 
@@ -20,8 +18,6 @@ public class Slider extends JSlider implements ChangeListener {
 		this.setMinimum(MIN);
 		this.setMaximum(MAX);
 		this.setValue(INITVALUE);
-		
-//		JSlider slider = new JSlider( JSlider.VERTICAL, MIN, MAX, INITVALUE);
 		
 		Hashtable<Integer, JLabel> lableTable = new Hashtable<Integer, JLabel>();
 		
